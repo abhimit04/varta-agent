@@ -28,7 +28,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900">
-      <h1 className="text-2xl font-bold mb-4 text-green-600">WhatsApp Clone</h1>
+      <h1 className="text-2xl font-bold mb-4 text-green-600">VartaLaap</h1>
       <input placeholder="Email" value={email} onChange={e => setEmail(e.target.value)} className="mb-2 p-2 rounded border" />
       <input type="password" placeholder="Password" value={password} onChange={e => setPassword(e.target.value)} className="mb-2 p-2 rounded border" />
       <div className="flex space-x-2">
